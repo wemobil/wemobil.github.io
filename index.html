@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	
+	<!-- Page Title -->
+	<title>Chris Design</title>
+	
+	<meta name="keywords" content="个人网站，网页设计，web design, designer,设计师" />
+	<meta name="description" content="chris lee 网页设计爱好者，喜爱漫画、绘画、游戏与音乐。" />
+	<meta name="author" content="chris lee" />
+	
+	<!-- Mobile Meta Tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<!-- Fav and touch icons -->
+	<link rel="shortcut icon" href="img/fav_touch_icons/favicon.jpg" />
+	<link rel="apple-touch-icon" href="img/fav_touch_icons/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="img/fav_touch_icons/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="img/fav_touch_icons/apple-touch-icon-114x114.png" />
+	
+	<!-- IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> 
+	<![endif]-->
+	
+	<!-- Google Web Font -->
+	<!-- <link href='http://fonts.useso.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'> -->
+	
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	
+    <link href="./css/font-awesome.css" rel="stylesheet" type="text/css">
+	  <!-- Fonts -->
+   <!--  <link href='http://fonts.useso.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="./css/clock.css">
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	
+
+
+
+<script src="js/jquery-2.0.3.min.js" type="text/javascript"></script>	
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".side ul li").hover(function(){
+		$(this).find(".sidebox").stop().animate({"width":"124px"},200).css({"opacity":"1","filter":"Alpha(opacity=100)","background":"#3f9f97"})	
+	},function(){
+		$(this).find(".sidebox").stop().animate({"width":"54px"},200).css({"opacity":"0.8","filter":"Alpha(opacity=80)","background":"#000"})	
+	});
+	
+});
+
+//回到顶部
+function goTop(){
+	$('html,body').animate({'scrollTop':0},600);
+}
+</script>
+<!-- 百度统计 -->
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?43e37f06cc25f1692a555161d4ac3986";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+
+</head>
+<body>
+	<!-- BEGIN HEADER -->
+	
+		<header id="header">
+			<section class="nav-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="#home" class="nav-logo"><img src="img/logo_small.png" alt="chrisdesign.cn" height="51" /></a>
+							
+							<nav id="nav"><!-- BEGIN MAIN MENU -->
+								<ul>
+									<li><a href="#theband">关 于 我</a></li>
+									<!--<li><a href="#concerts"></a></li>-->
+									<li><a href="#gallery">我 的 作 品</a></li>									
+									<li><a href="#contacts">联 系 我</a></li>
+									
+								</ul>
+							</nav><!-- END MAIN MENU -->	
+						</div>
+					</div>
+				</div>
+				<!-- <div class="clock">
+					<div id="hour" class="unit">
+						<div class="top"><span></span></div>
+						<div class="top"><span></span></div>
+						<div class="btm"><span></span></div>
+						<div class="btm"><span></span></div>
+					</div>
+					<div id="munite" class="unit">
+						<div class="top"><span></span></div>
+						<div class="top"><span></span></div>
+						<div class="btm"><span></span></div>
+						<div class="btm"><span></span></div>
+					</div>
+					<div id="second" class="unit">
+						<div class="top"><span></span></div>
+						<div class="top"><span></span></div>
+						<div class="btm"><span></span></div>
+						<div class="btm"><span></span></div>
+					</div
+				</div> -->
+			</section>
+		</header>
+		<!-- END HEADER -->
+
+		<!-- BEGIN HOME SECTION -->
+		<section id="home">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<a href="#home" id="logo" class="nav-logo"><img src="img/logo.png" alt="" width="379" height="205" /></a>
+						<!--展示-->
+						<div id="social-stream">
+							<ul id="social-stream-items">
+								<li class="featured">
+									<!-- <div class="icon color">
+										<i>UI</i>
+									</div> -->
+									<a href="./case11.html">
+										<div class="instagram">										
+											<img src="./img/case11/00.gif" alt="MG动画">										
+										</div>
+									</a><!-- This div (with class "instagram") will be automatically popuplated with a single photo from your Instagram feed -->
+								</li>
+								<li class="featured">
+									<a href="./case12.html">
+										<div class="instagram">										
+											<img src="./img/case12/00.gif" alt="MG动画">										
+										</div>
+									</a>
+									<!--<div class="icon "> <i class="icon-twitter"></i></div> -->									
+									<!-- This div (with class "tweet") will be automatically popuplated with a single tweet from your last tweets -->
+								</li>
+								<li class="featured">
+									<!--<div class="icon color">
+									 <i class="icon-expand"></i>
+									</div> -->									
+									<a href="./case13.html">
+										<div class="instagram">	
+											<img src="./img/case13/00.gif" alt="UI效果练习">
+										</div>
+									</a>
+									
+								</li>
+								<li class="featured">
+									<!--<div class="icon"><i class="icon-twitter"></i></div>-->
+									<a href="./case14.html">
+										<div class="instagram">										
+											<img src="./img/case14/00.gif" alt="MG动画">										
+										</div>
+									</a><!-- This div (with class "tweet") will be automatically popuplated with a single tweet from your last tweets -->
+								</li>
+								<li class="featured">
+									<!--<div class="icon color">
+									 <i class="icon-file-text-alt"></i> 
+									</div>-->
+									<!--<div class="title"><h3 class="color">Last News!</h3></div>-->
+									<a href="./case04.html">
+										<div class="instagram">										
+											<img src="./img/case04/0.jpg">																			
+										</div>
+									</a>
+								</li>
+								<li class="featured">
+									<!--<div class="icon ">
+									 <i class="icon-twitter"></i>
+									</div> -->
+									<a href="./case06.html">
+										<div class="instagram">										
+											<img src="./img/case06/0.jpg">										
+										</div>
+									</a>
+								</li>
+
+								<li class="featured">
+									<!--<div class="icon color">
+										<i class="icon-instagram"></i>
+									</div>-->
+									<a href="./case07.html">
+										<div class="instagram">										
+											<img src="./img/case07/0.jpg">
+										</a>
+									</div><!-- This div (with class "instagram") will be automatically popuplated with a single photo from your Instagram feed -->
+								</li>
+								<li class="featured">
+									<!--<div class="icon ">
+									 <i class="icon-twitter"></i>
+									</div> -->
+									<a href="./case08.html">
+										<div class="instagram">										
+											<img src="./img/case08/0.jpg">
+										</a>
+									</div><!-- This div (with class "tweet") will be automatically popuplated with a single tweet from your last tweets -->
+								</li>
+								<li class="featured">
+									<!--<div class="icon color">
+									 <i class="icon-expand"></i> 
+									</div>-->
+									<a href="./case09.html">
+										<div class="instagram">										
+											<img src="./img/case09/0.jpg">
+										</a>
+									</div>
+									
+								</li>
+								<li class="featured">
+									<div class="icon">
+									<!--<i class="icon-twitter"></i>-->
+									</div>
+									<a href="./case10.html">
+										<div class="instagram">										
+											<img src="./img/case10/0.jpg">
+										</a>
+									</div><!-- This div (with class "tweet") will be automatically popuplated with a single tweet from your last tweets -->
+								</li>
+								<li class="featured">
+									<div class="icon color">
+										<!-- <i class="icon-file-text-alt"></i> -->
+									</div>
+									<!--<div class="title"><h3 class="color">Last News!</h3></div>-->
+										<a href="./case11.html">
+										<div class="instagram">										
+											<img src="./img/case11/0.jpg">
+										</a>									
+									</div>
+								</li>
+
+
+								<li class="featured">
+									<div class="icon color">
+									<!-- 	<i class="icon-twitter"></i> -->
+									</div>
+									<a href="">
+										<div class="instagram">										
+											<img src="./img/show_01.jpg">
+										</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="bottom-home"></div>
+		</section>
+		<!-- END HOME SECTION -->
+		<!-- BEGIN THE BAND SECTION -->
+		<section id="theband">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<h1 class="section-title">关 于 我</h1>
+						<p class="section-desc">
+							你好，我是李书明 chris lee ，是一名网页设计师和插画爱好者。我喜爱艺术，追求新奇，爱好音乐和电子游戏。
+							<br><br>
+							<a href="./aboutvideo.html" class="btn btn-dark btn-icon open-overlay" data-overlay-id="theband-overlay" target="_blank">
+								<i class="icon-file-text-alt"></i><span>&nbsp;了 解 更 多&nbsp;</span>
+							</a>
+						</p>
+					</div>
+					<img src="./img/about.jpg" alt="" id="bandImage" class="col-sm-8"  />
+				</div>
+			</div>
+			<div id="bottom-theband" class="bg-color2"></div>
+		</section>
+		<!-- END THE BAND SECTION -->		
+		<!-- BEGIN GALLERY SECTION -->
+		<section id="gallery">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="section-title center">我 的 作 品</h1>
+					</div>
+				</div>
+			</div>
+			 <div class="container-fluid container-articles">
+			<!--  line01 -->
+		      <div class="row articles">		      
+		        <div class="col-md-2 col-xs-6 article-img">
+		          <img src="img/case01/00.jpg" alt="上海手畅手机官网">
+		           <a href="./case01.html">
+		           	<div class="article-overlay"></div>
+		           </a> 
+		        </div>
+		        <div class="col-md-2 col-xs-6 article-img">
+		          <img src="img/case02/00.jpg" alt="">
+		           <a href="./case02.html">
+		           	<div class="article-overlay"></div>
+		           </a> 
+		        </div>
+		        <div class="col-md-2 col-xs-6 article-img">
+		          <img src="img/case03/00.jpg" alt="">
+		           <a href="./case03.html">
+		           	<div class="article-overlay"></div>
+		           </a> 
+		        </div>
+		        <div class="col-md-2 col-xs-6 article-img">
+		          <img src="img/case04/00.jpg" alt="">
+		           <a href="./case04.html">
+		           	<div class="article-overlay"></div>
+		           </a> 
+		        </div>
+		        <div class="col-md-2 col-xs-6 article-img">
+		          <img src="img/case05/00.jpg" alt="">
+		           <a href="./case05.html">
+		           	<div class="article-overlay"></div>
+		           </a> 
+		        </div>
+		        <div class="col-md-2 col-xs-6 article-img">
+		          <img src="img/case16/00.jpg" alt="">
+		           <a href="./case16.html">
+		           	<div class="article-overlay"></div>
+		           </a> 
+		        </div>
+		      </div>
+			<!-- line01end -->
+			<!-- line02 -->
+		      <div class="row articles">
+		         <div class="col-md-2 col-xs-6 article-img">
+		          <img src="img/case07/00.jpg" alt="">
+		           <a href="./case07.html">
+		           	<div class="article-overlay"></div>
+		           </a> 
+		        </div>
+		        <div class="col-md-2 col-xs-6 article-img">
+		          <img src="img/case08/00.jpg" alt="">
+		           <a href="./case08.html">
+		           	<div class="article-overlay"></div>
+		           </a> 
+		        </div>
+		        <div class="col-md-2 col-xs-6 article-img">
+		          <img src="img/case09/00.jpg" alt="">
+		           <a href="./case09.html">
+		           	<div class="article-overlay"></div>
+		           </a> 
+		        </div>
+		        <div class="col-md-2 col-xs-6 article-img">
+		          <img src="img/case10/00.jpg" alt="">
+		           <a href="./case10.html">
+		           	<div class="article-overlay"></div>
+		           </a> 
+		        </div>
+		        <div class="col-md-2 col-xs-6 article-img">
+		          <img src="img/case11/00.jpg" alt="">
+		           <a href="./case11.html">
+		           	<div class="article-overlay"></div>
+		           </a> 
+		        </div>
+		        <div class="col-md-2 col-xs-6 article-img">
+		          <img src="img/case15/00.jpg" alt="">
+		           <a href="./case15.html">
+		           	<div class="article-overlay"></div>
+		           </a> 
+		        </div>
+		    </div>					
+		</section>
+		<!-- END GALLERY SECTION -->
+				
+		<!-- BEGIN CONTACTS SECTION -->
+		<section id="contacts" class="bg-color2">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="section-title center">联 系 我</h1>
+						
+						<div id="form-wrap" class="col-sm-5 center">
+							<form id="form-contact" method="post" action="#" class="bg-color1">
+								
+								<div class="contact_wechat" >
+                				<i></i>
+					                <em><img src="./img/wechat.jpg"></em>
+					            </div>
+								<ul class="social-icons">
+									<a href="http://wpa.qq.com/msgrd?v=3&uin=499010771&site=qq&menu=yes">
+										<li class="qq">
+											<img src="./img/qq.png">										
+										</li>
+									</a>
+									<a href="">
+										<li class="wechat">
+											<img src="./img/wechat.png">										
+										</li>
+									</a>
+									<a href="http://weibo.com/chrisleedesign" target="_blank">
+										<li class="sina">
+											<img src="./img/sina.png">										
+										</li>
+									</a>
+
+								</ul>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+		<!-- END CONTACTS SECTION -->
+		<!-- Libs -->
+		<script src="js/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/plugins.js" type="text/javascript"></script>
+		<script src="js/slideshow/slideshow.js" type="text/javascript"></script>
+		<script src="js/jay.plugin.smoothscroll.js"  type="text/javascript"></script>
+		<script src="js/scripts.js"></script>
+    	<script src="js/unslider.min.js"></script>
+    	<script type="text/javascript" src="./js/my.js"></script>
+		<script type="text/javascript">
+
+		(function ($) {
+		    if (!$('.contact_wechat').length) return;
+		    $('.wechat').eq(0).hover(function() {
+		    	$('.contact_wechat').css('opacity', '1');
+		    }, function() {
+		    	$('.contact_wechat').css('opacity', '0');
+		    });
+		})(jQuery);
+
+		</script>
+<div class="side">
+	<ul>		
+		<li><a href="http://wpa.qq.com/msgrd?v=3&uin=499010771&site=qq&menu=yes" ><div class="sidebox"><img src="img/side_icon04.png">Q我</div></a></li>
+		<li><a href="http://weibo.com/chrisleedesign"  target="_blank"><div class="sidebox"><img src="img/side_icon03.png">新浪微博</div></a></li>
+		<li style="border:none;"><a href="javascript:goTop();" class="sidetop"><img src="img/side_icon05.png"></a></li>
+	</ul>
+</div>
+
+	<section id="pal-links">
+		<div class="container oh">
+			<p>友情链接：</p>
+			<a href="http://blog.webthk.com"  rel="nofollow" target="_blank">
+				逛逛不老阁
+			</a>
+			<a href="http://t.cn/R40OzdE"  rel="nofollow" target="_blank">
+				我的店铺
+			</a>				
+		</div>
+	</section>
+</body>
+</html>
